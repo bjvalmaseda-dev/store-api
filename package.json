@@ -12,6 +12,7 @@
   "author": "Bárbaro Javier Valmaseda <hello@bjvalmaseda.com> (https://bjvalmaseda.com/)",
   "license": "MIT",
   "devDependencies": {
+    "@faker-js/faker": "^7.5.0",
     "eslint": "^8.23.1",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",

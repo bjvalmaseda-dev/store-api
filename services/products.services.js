@@ -30,6 +30,7 @@ class ProductsServices {
   }
 
   find() {
+    // eslint-disable-next-line no-unused-vars
     return new Promise((resolve, reject) => {
       setTimeout(() => {
         resolve(this.products);

@@ -9,8 +9,12 @@ class ProductsService {
     return newProduct;
   }
 
-  async find() {
-    const products = await models.Product.findAll({ include: ['category'] });
+  async find({ limit = 2, offset = 0 }) {
+    const products = await models.Product.findAll({
+      include: ['category'],
+      limit: limit,
+      offset: offset,
+    });
     return products;
   }
 
